@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Marketplace", "Marketplace\Marketplace.ssmssqlproj", "{A1873870-96B7-4218-8541-35BDEA6ECBF4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classificados", "Classificados", "{3BD974E8-B8A0-42B5-A47D-423BFA711417}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Classificados", "Classificados\Classificados.ssmssqlproj", "{80D75E2A-6097-46F6-B837-7F1D7449403B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -12,9 +16,13 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A1873870-96B7-4218-8541-35BDEA6ECBF4}.Default|Default.ActiveCfg = Default
 		{70AC3D4D-F3FE-4B5E-8F37-948483DB85BD}.Default|Default.ActiveCfg = Default
+		{80D75E2A-6097-46F6-B837-7F1D7449403B}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80D75E2A-6097-46F6-B837-7F1D7449403B} = {3BD974E8-B8A0-42B5-A47D-423BFA711417}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4223E1B7-CFC5-425E-8014-C3EE581A0E10}
